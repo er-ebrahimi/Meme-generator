@@ -1,0 +1,100 @@
+.header {
+  background-color: #9065e5;
+  color: #ffffff;
+}
+
+.section {
+  margin-bottom: 3rem;
+}
+
+.container {
+  margin: 0 10rem 0;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  height: 5rem;
+  justify-content: space-between;
+}
+
+.nav--logo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.nav--logo_img {
+  width: 70px;
+}
+
+.form {
+  display: grid;
+  /* background-color: black; */
+  grid-template-columns: repeat(2, 20rem);
+  gap: 1rem;
+  justify-content: center;
+}
+
+button {
+  color: #ffffff;
+  height: 3rem;
+  font-weight: 700;
+  /* background-color: #b38dff; */
+  background-color: #a071ff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  grid-column: 1/-1;
+}
+
+input {
+  height: 2.5rem;
+  border-radius: 5px;
+  /* border: solid ; */
+  border: solid 1px #d5d4d8;
+  outline: none;
+  text-indent: 10px;
+}
+
+.meme--img {
+  width: 600px;
+  border-radius: 10px;
+}
+
+.form--container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.container--img {
+  position: relative;
+  /* display: flex; */
+}
+
+.container--img > h1 {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  color: #ffffff;
+  font-family: impact, sans-serif;
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000,
+    -2px 2px 0 #000, 0 2px 0 #000, 2px 0 0 #000, 0 -2px 0 #000, -2px 0 0 #000,
+    2px 2px 5px #000;
+  padding: 8px 0;
+}
+
+.top--title {
+  top: 0;
+}
+
+.bottom--title {
+  bottom: 0;
+}
